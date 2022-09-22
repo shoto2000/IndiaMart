@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="styles/acordian.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
+  <link rel="stylesheet" href="styles/order.css">
+  <link rel="stylesheet" href="./styles/footer.css">
+</head>
+
+<body>
+  <div id="loginModalSection"></div>
+  <div id="otpModalSection"></div>
+  <div id="signupModalSection"></div>
+  <div id="signupOtpModalSection"></div>
+  <div class="container bg-white py-2">
+
+  </div>
+  <div id="main_inner">
+    <div id="side_inner">
+      <h5>Product & Services</h5>
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h4 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+              aria-expanded="true" aria-controls="collapseOne">
+              <span onclick="one1()">
+                Makeup
+              </span>
+            </button>
+          </h4>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body panel">
+              <ul>
+                <li onclick="one1()">Foundation</li>
+                <li onclick="one1()">Compact</li>
+                <li onclick="one1()">Pan Cake Foundation</li>
+                <li onclick="one1()">Pan Stick Foundation</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h4 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseLipstick" aria-expanded="false" aria-controls="collapseLipstick">
+              <span onclick="two2()">
+                Lipstick
+              </span>
+            </button>
+          </h4>
+          <div id="collapseLipstick" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body panel">
+              <ul>
+                <li onclick="two2()">Baked Brick Lipstick</li>
+                <li onclick="two2()">Cerise Pink Lipstick</li>
+                <li onclick="two2()">Coral Red Lipstick</li>
+                <li onclick="two2()">Desert Rose Lipstick</li>
+                <li onclick="two2()">Eternal Red Lipstick</li>
+                <li onclick="two2()">Muddy Pink Lipstick</li>
+                <li onclick="two2()">Pretty Purple Lipstick</li>
+                <li onclick="two2()">Radiant Red Lipstick</li>
+                <li onclick="two2()">Red Cherry Lipstick</li>
+                <li onclick="two2()">Rose Blossom Lipstick</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#LipsProduct" aria-expanded="false" aria-controls="LipsProduct">
+              <span onclick="three3()">
+                Lips Product
+              </span>
+            </button>
+          </h2>
+          <div id="LipsProduct" class="accordion-collapse collapse" aria-labelledby="headingThree"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body panel">
+              <ul>
+                <li onclick="seven7()">Lip Gloss</li>
+                <li onclick="seven7()">Lip Stick</li>
+                <li onclick="seven7()">Lip Liner</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#BleachCream" aria-expanded="false" aria-controls="BleachCream">
+              <span onclick="four4()">
+                Bleach Cream
+              </span>
+            </button>
+          </h2>
+          <div id="BleachCream" class="accordion-collapse collapse" aria-labelledby="headingThree"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body panel">
+              <ul>
+                <li onclick="three3()">Fruit Bleach</li>
+                <li onclick="three3()">Gold Bleach</li>
+                <li onclick="three3()">Personal Bleach</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#Scrubs"
+              aria-expanded="false" aria-controls="Scrubs">
+              <span onclick="five5()">
+                Scrubs
+              </span>
+            </button>
+          </h2>
+          <div id="Scrubs" class="accordion-collapse collapse" aria-labelledby="headingThree"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body panel">
+              <ul>
+                <li onclick="four4()">Fairness Scrub</li>
+                <li onclick="four4()">Mix Fruit Scrub</li>
+                <li onclick="four4()">Facial Scrub</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#EyesProduct" aria-expanded="false" aria-controls="EyesProduct">
+              <span onclick="six6()">
+                Eyes Product
+              </span>
+            </button>
+          </h2>
+          <div id="EyesProduct" class="accordion-collapse collapse" aria-labelledby="headingThree"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body panel">
+              <ul>
+                <li onclick="five5()">Mascara</li>
+                <li onclick="five5()">Eye Shadow</li>
+                <li onclick="five5()">Eye Liner</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#LipCare"
+              aria-expanded="false" aria-controls="LipCare">
+              <span onclick="seven7()">
+                Lip Care
+              </span>
+            </button>
+          </h2>
+          <div id="LipCare" class="accordion-collapse collapse" aria-labelledby="headingThree"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body panel">
+              <ul>
+                <li onclick="six6()">Lip Balm</li>
+                <li onclick="six6()">Lip Guard</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="second_inner">
+      <h2>Makeup</h2>
+      <p>Offering you a complete choice of products</p>
+      <div id="upper_right">
+
+      </div>
+      <div id="right_inner">
+
+      </div>
+    </div>
+  </div>
+
+  <!-- order model popup -->
+  <div id="bootstrap"></div>
+
+  <div id="footerSection"></div>
+</body>
+
+</html>
+<!-- Navbar Script -->
+<script type="module" src="./scripts/navbar.js"></script>
+<script src="./scripts/logout.js"></script>
+<!-- Navbar Script Ends -->
+<script src="scripts/searchbar.js"></script>
+<script src="scripts/db.js"></script>
+
+<script src="scripts/acordian.js"></script>
+<script src="scripts/innerPro.js" type="module"></script>
+<script src="scripts/buttons.js"></script>
+<script src="scripts/local.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+  integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+  integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+<script type="module" src="./scripts/footer.js"></script>

@@ -1,0 +1,338 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: rgb(233,234,236);
+}
+div{
+    margin: 0;
+    padding: 0;
+}
+#homeMainDiv1{
+    margin: auto;
+    height: 2000px;
+    width: 1296px;
+    background-color: white;
+}
+
+
+
+#homeMainDiv1-1{
+    height: 695.95px;
+    width: 1276px;
+    margin: 10px 10px 0 10px;
+    padding: 10px;
+    /* border: 1px dashed green; */
+}
+
+#homeSlidesDiv{
+    margin: auto;
+    height: 302px;
+    width: 1201px;
+    /* border: 1px solid blue; */
+}
+
+#aboutDiv{
+    height: 344px;
+    width: 1276px;
+    margin: 50px 0 40px 0;
+    /* border: 1px dashed coral; */
+}
+#aboutHeading{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin-bottom: 10px;
+    /* border: 1px solid yellow; */
+}
+#aboutHeading h2{
+    font-size: 26px;
+    color: #111;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    padding: 0 0 5px 0;
+    position: relative;
+}
+#aboutHeading a{
+    text-decoration: none;
+    color: #111;
+
+}
+#aboutUL{
+    background-color: #2d3192;
+    margin: auto;    
+    width: 35px;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    top: 90%;
+}
+#aboutCont{
+    /* height: 75px; */
+    margin: auto;
+    width: 1200px;
+    margin-top: 10px;
+    text-align: center;
+    color: #444444;
+    /* border: 1px solid grey; */
+}
+#aboutCont span{
+    line-height: 24.96px;
+    font-size: 16px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+#aboutCont a{
+    text-decoration: underline solid white;
+    color: #2e3192;
+    font-size: 14px;
+    font-weight:bolder;
+    margin: 4px 0 0 0;
+    display: block;
+}
+#aboutCont a:hover{
+    text-decoration: underline;
+}
+#aboutIconMain{
+    margin: 0;
+    padding: 0;
+    height: 199px;
+    width: 1276px;
+    display: flex;
+    justify-content: center;
+    /* align-items: flex-start; */
+    flex-wrap: wrap;
+}
+#aboutIconMain>div{
+    /* border: 1px dashed peru; */
+    height: 63px;
+    width: 285px;
+    margin: 30px 30px 0 0;
+    display: flex;
+}
+.iconDiv img{
+    width: 63px;
+    height: 63px;
+    display: flex;
+}
+#aboutIconMain p{
+    font-size: 15px;
+    line-height: 15px;
+    color: #777777;
+    margin: 0 0 5px 0;
+}
+#aboutIconMain span{
+    font-size: 16px;
+    line-height: 20px;
+    color: #111;
+    display: inline;
+    
+}
+.iconDiv~div{
+    margin: 0;
+    padding: 8px 0 0 8px;
+    width: 217px;
+    display: inline-block;
+    vertical-align: middle;
+}
+/* ----------Products $ Services--------------- */
+
+#homeMainDiv1-2{
+    /* border: 1px dashed purple; */
+    height: 1032.47px;
+    width: 1296px;
+    margin: 40px 0 20px 0;
+}
+#prodHeading{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin-bottom: 40px;
+}
+#prodHeading h2{
+    font-size: 26px;
+    color: #111;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    padding: 0 0 5px 0;
+    position: relative;
+}
+#prodHeading a{
+    text-decoration: none;
+    color: #111;
+
+}
+#prodUL{
+    background-color: #2d3192;
+    margin: auto;    
+    width: 35px;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    top: 90%;
+}
+#prodDiv{
+    /* border: 1px solid teal; */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.prodCard{
+    height: 430.23px;
+    width: 270px;
+    border: 1px solid #eaeaea;
+    margin: 0 14px 23px 14px;
+    position: relative;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.prodCard:hover{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.prodImgDiv{
+    /* border: 1px dashed gold; */
+    height: 300px;
+    width: 268px;
+    min-height: 250px;
+    box-sizing: border-box;
+}
+.prodCard figure{
+    /* max-width: 250px;
+    max-height: 250px;
+    min-width: 250px;
+    min-height: 250px; */
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+}
+.prodCard img {
+    height: 250px;
+    width: 153px;
+    max-height: 250px;
+    min-height: auto;
+    max-width: 250px;
+    min-width: auto;
+    /* border: 1px solid green; */
+}
+#imgEx2{
+    height: 185px;
+    width: 148px;
+}
+#imgEx3{
+    height: 250px;
+    width: 221px;
+}
+#imgEx4{
+    height: 250px;
+    width: 221px;
+}
+#imgEx5{
+    height: 250px;
+    width: 167px;
+}
+#imgEx6{
+    height: 124px;
+    width: 249px;
+}
+#imgEx7{
+    height: 250px;
+    width: 221px;
+}
+#imgEx8{
+    height: 85px;
+    width: 249px;
+}
+.prodCard a{
+    text-decoration: none;
+    color:  #2D3192;
+    margin:0;
+    padding: 0;
+}
+.prodCard h3{
+    /* border: 1px dashed cyan; */
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    margin-top:-5px;
+    text-align: center;
+}
+.prodCard h3:hover{
+    text-decoration: underline;
+}
+.prodListDiv{
+    /* border: 1px dashed cyan; */
+    height: 95px;
+    width: 268px;
+    margin: 0;
+    padding: 0 0 30px 0;
+    text-align: center;
+}
+.prodListDiv ul{
+    padding: 0;
+    margin: 4px 0 15px 0;
+    list-style-position: inside;
+}
+.prodListDiv li{
+    text-align: center;
+    font-size: 16px;
+    line-height: 18.5px;
+    padding: 0 0 5px 0;
+    display: list-item;
+    list-style-type: none;
+    list-style-position: outside;
+}
+.prodListDiv a:hover{
+    color: #111;
+}
+.prodListDiv a{
+    text-decoration: none;
+    color: #777777;
+}
+.prodMore{
+    text-align: center;
+    text-decoration: none;
+    padding: 13px 10px 13px 10px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 5px;
+    top: 400px;
+
+}
+.prodMore span{
+    color: #068076;
+    font-weight: bold;
+    font-size: 15px;
+}
+.prodMore span:hover{
+    text-decoration: underline;
+}
+#viewRangeBtn{
+    width: 100%;
+    font-size: 15px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+#viewRangeBtn a{
+    text-decoration: none;
+    color: #068076;
+    border-radius: 3px;
+    border: 1px solid #068076;
+    padding: 14px 25px;
+    outline: none;
+}
+#viewRangeBtn a:hover{
+    background-color: #068076;
+    color: white;
+}

@@ -1,0 +1,4 @@
+// append this script to include the footer.
+// also make sure the you have a div with id: footerSection.
+import Footer from './components/Footer.js';
+document.getElementById('footerSection').innerHTML = Footer();

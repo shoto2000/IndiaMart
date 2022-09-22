@@ -1,0 +1,385 @@
+/* #container {
+  display: flex;
+  width: 60%;
+  margin: auto;
+  justify-content: space-between;
+  gap: 20px;
+}
+#container > div > p {
+  font-size: 18px;
+  font-family: sans-serif;
+}
+#container > div > img {
+  width: 80%;
+  display: block;
+  margin: auto;
+}
+#container > div > a {
+  display: block;
+  margin: auto;
+  padding: 5px 10px 5px 10px;
+  margin-top: 20px;
+}
+#container > div > button {
+  display: block;
+  margin: auto;
+  padding: 5px 25px 5px 25px;
+  margin-top: 20px;
+} */
+/* .modal-body {
+  display: flex;
+} */
+.image {
+  width: 40%;
+  background-color: #fafafa;
+  padding: 0px 10px 10px 10px;
+}
+.image_img > img {
+  display: block;
+  margin: auto;
+  width: 90%;
+  height: 200px;
+  padding-top: 20px;
+}
+.image_img > p,
+.image1_img > p {
+  margin-left: 6px;
+}
+
+.span > p,
+.span1 > p {
+  font-size: 14px;
+  margin-left: 6px;
+}
+.input {
+  padding-left: 15px;
+}
+.input > h4 {
+  font-size: 18px;
+  font-family: sans-serif;
+}
+.input > h4 + p {
+  padding-top: 20px;
+}
+.quantity {
+  display: flex;
+  align-items: center;
+  margin-top: -25px;
+}
+
+.quantity > input {
+  width: 20%;
+}
+.quantity > p {
+  padding: 2px 10px 2.5px 10px;
+  margin-top: 15px;
+  border: 1px solid gray;
+}
+.quantity + p {
+  padding-top: 15px;
+  letter-spacing: 0.5px;
+}
+.priceRange {
+  padding: 7px 130px 7px 10px;
+  margin-top: -30px;
+}
+.priceRange + p {
+  padding-top: 15px;
+}
+.checkbox {
+  display: flex;
+  height: 30px;
+  margin-top: -10px;
+}
+.checkbox > div {
+  display: flex;
+  width: 18%;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid gray;
+  border-radius: 8px;
+  font-size: 15px;
+}
+.checkbox > div + div {
+  margin-left: 10px;
+}
+.checkbox > div > p {
+  margin-top: 15px;
+}
+.checkbox > input {
+  margin-left: 10px;
+  font-size: 15px;
+  padding-left: 5px;
+  width: 20%;
+  border-radius: 8px;
+  border: 1px solid gray;
+}
+#next {
+  margin-top: 40px;
+  padding: 10px 80px 10px 80px;
+  background-color: #00a699;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+/* modal 2 */
+.image1 {
+  width: 35%;
+  background-color: #fafafa;
+  padding: 0px 10px 10px 5px;
+}
+
+.image1_img > img {
+  display: block;
+  margin: auto;
+  width: 80%;
+  height: 230px;
+  padding-top: 20px;
+}
+.image1_img > img + p {
+  padding-left: 20px;
+  margin-top: 20px;
+}
+.span1 > p {
+  padding-left: 20px;
+}
+.input1 {
+  padding-left: 15px;
+  width: 60%;
+}
+.input1 > h4 {
+  font-size: 20px;
+  font-family: sans-serif;
+}
+.input1 > h4 + p {
+  margin-top: 20px;
+}
+#pbrand {
+  width: 60%;
+  height: 32px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  margin-top: -10px;
+}
+#pbrand + p {
+  margin-top: 15px;
+}
+.checkbox1 {
+  display: flex;
+  width: 86%;
+  justify-content: space-between;
+  margin-top: -8px;
+}
+.checkbox1 > div {
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 15px;
+  width: 32%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 35px;
+  border: 1px solid gray;
+  border-radius: 15px;
+}
+
+.checkbox1 > div > input {
+  border-radius: 10px;
+}
+.checkbox1 > div > p {
+  margin-top: 16px;
+}
+.inputfield1 {
+  margin-top: 20px;
+}
+.inputfield1 > p + textarea {
+  margin-top: -10px;
+}
+.buttons1 {
+  display: flex;
+  margin-top: 30px;
+  padding-bottom: 50px;
+}
+.back1 {
+  padding: 5px 10px 5px 10px;
+  font-size: 25px;
+  margin-right: 10px;
+  color: rgb(78, 78, 78);
+  border: none;
+  border-radius: 7px;
+}
+.next1 {
+  padding: 5px 70px 5px 70px;
+  color: white;
+  background-color: #00a699;
+  border-radius: 7px;
+  border: none;
+}
+
+/* modal 3  */
+
+.image2 {
+  width: 33%;
+  background-color: #fafafa;
+  padding: 0px 10px 10px 5px;
+}
+.image2_img > img {
+  width: 90%;
+  height: 200px;
+  display: block;
+  margin: auto;
+}
+.image2_img > p {
+  font-size: 15px;
+  margin-top: 10px;
+  padding-left: 10px;
+}
+.span2 {
+  font-size: 14px;
+  padding-left: 10px;
+}
+.input2 {
+  padding-left: 20px;
+}
+.input2 > h4 {
+  font-size: 18px;
+  font-family: sans-serif;
+}
+
+.input2in {
+  width: 70%;
+  font-family: sans-serif;
+  margin-top: 30px;
+}
+
+.inputbox {
+  position: relative;
+  margin-bottom: 30px;
+}
+.inputbox > input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  outline: none;
+}
+.inputbox > span {
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 14px;
+  padding: 8px;
+  pointer-events: none;
+  transition: 0.5s;
+}
+
+.inputbox input:valid ~ span,
+.inputbox input:focus ~ span {
+  color: blue;
+  transform: translateX(10px) translateY(-7px);
+  font-size: 12px;
+  padding: 0 10px;
+  background-color: white;
+}
+.buttons2 {
+  display: flex;
+  margin-top: 50px;
+}
+.back2 {
+  font-size: 25px;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px 5px 10px;
+}
+
+.next2 {
+  padding: 11px 70px 11px 70px;
+  border: none;
+  background-color: #00a699;
+  color: white;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+/* modal 3  */
+
+.thankyou {
+  display: flex;
+  width: 30%;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  margin-left: 260px;
+}
+.thankyou > img {
+  width: 10%;
+  height: 24px;
+}
+.thankyou > h4 {
+  margin-top: 7px;
+  margin-left: 10px;
+  font-weight: 700;
+  font-family: sans-serif;
+}
+.thankyou + div > p {
+  width: 90%;
+  text-align: center;
+  margin: auto;
+  font-family: sans-serif;
+}
+.thankyou + div > p > span {
+  font-weight: bold;
+}
+.sim {
+  font-size: 16px;
+  font-family: sans-serif;
+  background-color: #fafafa;
+  padding: 10px 5px;
+  font-weight: 700;
+}
+.similar {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(1, 300px);
+  width: 100%;
+  margin: auto;
+  background-color: #fafafa;
+}
+.similar > div {
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  transition: 0.5;
+}
+.similar > div:hover {
+  transform: scale(1.05);
+}
+.similar > div > img {
+  width: 90%;
+  height: 150px;
+  gap: 20px;
+  display: block;
+  margin: auto;
+}
+.similar > div > p {
+  font-size: 12px;
+  padding-left: 5px;
+  text-align: center;
+  width: 90%;
+  margin-top: 20px;
+  color: rgb(42, 42, 151);
+}
+.similar > div > h5 {
+  font-size: 16px;
+  padding-left: 15px;
+  margin-top: -10px;
+}
+.similar > div > button {
+  display: block;
+  margin: auto;
+  padding: 3px 25px 5px 25px;
+  color: white;
+  background-color: #00a699;
+  border: none;
+  margin-top: 10px;
+  border-radius: 5px;
+}

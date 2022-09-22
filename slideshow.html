@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slideshow</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+   
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+   <link rel="stylesheet" href="./styles/slideshow.css">
+</head>
+
+
+<body>
+  <div id="slideDiv">
+  </div>
+
+</body>
+
+
+</html>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" 
+   integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" 
+   crossorigin="anonymous">
+</script>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+<script type="module">
+    // console.log('hello');
+    import SlideShow from './components/Slideshow.js';
+    // console.log(SlideShow());
+    let slideDiv = document.getElementById('slideDiv');
+    slideDiv.innerHTML = SlideShow();
+    let data=[
+         {name:"Foundation",url:"https://3.imimg.com/data3/BX/CS/MY-3792183/foundation-250x250.jpg"},
+         {name:"Pan Stick Foundation",url:"https://3.imimg.com/data3/LX/OI/MY-3792183/pan-stick-250x250.jpg"},
+         {name:"Compact",url:"https://3.imimg.com/data3/YL/EJ/MY-3792183/01-250x250.jpg"},
+         {name:"Fairness Scrub",url:"https://3.imimg.com/data3/QC/FL/MY-3792183/fairness-scrub-250x250.jpg"},
+         {name:"Nail enamel",url:"https://3.imimg.com/data3/BK/MD/MY-3792183/01-250x250.jpg"},
+         {name:"Lip Gloss",url:"https://3.imimg.com/data3/RK/XF/MY-3792183/01-250x250.jpg"},
+         {name:"Fruit Bleach",url:"https://3.imimg.com/data3/NL/QG/MY-3792183/fruit-bleach-250x250.jpg"},
+         {name:"Lip Balm",url:"https://3.imimg.com/data3/US/UJ/MY-3792183/lip-balm-250x250.jpg"},
+         
+     ]
+ 
+         //this function is for appending data in slideshow container
+    let append=()=>{
+    
+    let c=0;
+    for(let i=0;i<data.length;i++)
+    {
+        //this is the div used for slide
+        let div=document.getElementById("c"+(c+1));
+        div.innerHTML=null;
+ 
+        let img=document.createElement("img");
+        img.src=data[i].url;
+ 
+        let div2=document.createElement("div");
+        div2.setAttribute("class","name");
+ 
+        let name=document.createElement("div");
+        name.innerText=data[i].name;
+ 
+        let div3=document.createElement("div");
+ 
+ 
+        let btn=document.createElement("button");
+        btn.setAttribute("class","slideBtn");
+        btn.innerText="Get Best Quote";
+ 
+        div3.append(btn)
+ 
+        div2.append(name,div3);
+ 
+        div.append(img,div2);
+        c++;
+ 
+    }
+
+    
+ 
+   }
+ 
+   append();
+   $('.Slideshow_Container').slick({
+   slidesToShow: 4,
+   slidesToScroll: 1,
+   autoplay: true,
+   //   infinite: true,
+   autoplaySpeed: 2000,
+   });
+
+
+    document.querySelector(".slick-prev").innerText="<";
+    document.querySelector(".slick-next").innerText=">";
+
+</script>
